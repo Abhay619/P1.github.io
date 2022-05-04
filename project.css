@@ -1,0 +1,52 @@
+body{
+    background-color: #E1E2E2    ;
+    background-size: cover;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    font-family:sans-serif;
+}
+h1,u{
+    color: #5EBEC4;
+}
+.Control{
+    margin: 20px;
+    padding: 20px;
+    /* background-color: rgb(232, 243, 232); */
+    /* border: 5px solid darkgreen; */
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+}
+strong.speed,strong.size{
+    color: #1D2228
+;
+
+}
+h1,b,strong{
+    text-align: center;
+    color: #1D2228
+;
+}
+div.addition{
+    margin:20px;
+    padding: 20px;
+    color: #1D2228
+;
+    /* background-color: rgb(232, 243, 232); */
+    /* border: 3px solid darkgreen; */
+    border: 3px solid darkgreen;
+    border-radius: 10px;;
+}
+
+div.comp,b.bol{
+
+    padding: 20px;
+    /* background-color: rgb(232, 243, 232); */
+    color: #1D2228;
+;  
+    /* background: transparent; */
+    padding-left: 50px;
+}
+#complex,th{
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draft1</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <h1><u>SORTING VISUALIZER</u></h1>
+    <div class="Control"> 
+            
+        <label for="size">
+            <strong class="size">Size of the array:&nbsp;</strong>
+            <input type="range" name="size" id="size" width="5px">
+            
+        </label>
+        <label for="Speed">
+            <strong class="speed">Speed of the Array:    &nbsp;    </strong>
+            <input type="range" name="speed" id="Speed">
+            <br>
+        </label>
+        <br>
+        <label for="input" id="mbutton">
+            <input type="button" value="Generate">
+        </label><br><br>
+        <label for="merge">
+            <input type="button" value="Merge">
+        </label>
+        <label for="quick">
+            <input type="button" value="Quick">
+        </label>
+        <label for="selection">
+            <input type="button" value="Selection">
+        </label>
+        <label for="bubble">
+            <input type="button" value="Bubble">
+        </label>
+        </label>
+    </div>
+    <br>
+    <div class="addition">
+        To Know more about Merge Sort <a href="https://www.tutorialspoint.com/cplusplus-program-to-implement-merge-sort#:~:text=The%20merge%20sort%20technique%20is,complexity%20for%20worst%20case%20also." target="_blank"> Click here</a><br>
+
+        To know more about Quick Sort <a href="https://www.geeksforgeeks.org/quick-sort/" target="_blank">Click here</a><br>
+    
+        To know more about Selection Sort <a href="https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm" target="_blank">Click here</a><br>
+    
+        To know more about Bubble Sort <a href="https://www.geeksforgeeks.org/bubble-sort/" target="_blank">Click here</a><br>
+    </div>
+    <br>
+    <div class="comp">
+        <table id="complex">
+            <thead>
+                <tr>
+                    <th>Algorithm</th>
+                    <th colspan="3">Time Complexity</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Best</th>
+                    <th>Average</th>
+                    <th>Worst</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <b class="bol">Selection Sort</b>
+                    </td>
+                    <td>&Omega;(n^2)</td>
+                    <td>&theta;(n^2)</td>
+                    <td>O(n^2)</td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <b class="bol">Merge Sort</b>
+                    </td>
+                    <td>&Omega;(nlog(n))</td>
+                    <td>&theta;(nlog(n))</td>
+                    <td>O(nlog(n))</td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <b class="bol">Quick Sort</b>
+                    </td>
+                    <td>&Omega;(nlog(n))</td>
+                    <td>&theta;(nlog(n))</td>
+                    <td>O(n^2)</td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <b class="bol">Bubble Sort</b>
+                    </td>
+                    <td>&Omega;(n)</td>
+                    <td>&theta;(n^2)</td>
+                    <td>O(n^2)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
